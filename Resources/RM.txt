@@ -1,0 +1,39 @@
+#ModelsCount: 0
+
+#Textures: 2
+ID 0
+FILE ../Resources/Textures/Woman1.tga
+WRAP_S REPEAT
+WRAP_T REPEAT
+MINFIL LINEAR
+MAGFIL LINEAR
+SAMPLER Woman 0
+ID 1
+FILE ../Resources/Textures/Woman2.tga
+WRAP_S REPEAT
+WRAP_T REPEAT
+MINFIL LINEAR
+MAGFIL LINEAR
+SAMPLER Woman 0
+
+#Cube Textures 0
+
+#Shaders: 6
+ID 0
+VS ../Resources/Shaders/SkyBoxShaderVS.vs
+FS ../Resources/Shaders/SkyBoxShaderFS.fs
+ID 1
+VS ../Resources/Shaders/FireShaderVS.vs
+FS ../Resources/Shaders/FireShaderFS.fs
+ID 2
+VS ../Resources/Shaders/TerrainShaderVS.vs
+FS ../Resources/Shaders/TerrainShaderFS.fs
+ID 3
+VS ../Resources/Shaders/WomanShaderVS.vs
+FS ../Resources/Shaders/WomanShaderFS.fs
+ID 4
+VS ../Resources/Shaders/BilaShaderVS.vs
+FS ../Resources/Shaders/BilaShaderFS.fs
+ID 5
+VS ../Resources/Shaders/AnotherBilaShaderVS.vs
+FS ../Resources/Shaders/AnotherBilaShaderFS.fs
